@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/assets/css/roblox.css"/>
+</head>
+<body>
+
+  <!-- Floating pixel blocks decoration -->
+  <div class="pixel-bg">
+    <div class="pixel p1"></div>
+    <div class="pixel p2"></div>
+    <div class="pixel p3"></div>
+    <div class="pixel p4"></div>
+    <div class="pixel p5"></div>
+    <div class="pixel p6"></div>
+  </div>
+
+  <!-- Top nav bar -->
+  <header class="roblox-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <div class="logo-icon">&#9632;</div>
+        <span class="logo-text">{{ site.title }}</span>
+      </div>
+      <nav class="header-nav">
+        <a href="/" class="nav-btn">Home</a>
+        <a href="/about" class="nav-btn">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="roblox-main">
+    <div class="content-card">
+      {{ content }}
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="roblox-footer">
+    <p>Built with Jekyll &bull; Hosted on GitHub Pages &bull; {{ site.author }}</p>
+  </footer>
+
+</body>
+</html>
