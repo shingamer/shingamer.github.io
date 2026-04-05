@@ -1,36 +1,40 @@
 ---
-layout: post
-title: "My First Post"
+layout: default
+title: "Hello, World"
 date: 2026-04-05 12:00:00 +0800
-categories: [general, intro]
-tags: [hello, github-pages, jekyll]
-author: shingamer
 ---
 
-Welcome to my very first blog post! 🎉
+# Hello, World
 
-## Why I Started This Blog
-
-I decided to start this blog to document my learning journey and share things I find interesting. GitHub Pages makes it incredibly easy to host a blog for **free** — no servers, no hosting fees.
-
-## What to Expect
-
-- 📝 Tutorials and how-tos
-- 💡 Things I'm learning
-- 🚀 Projects I'm working on
-
-## How This Works
-
-This blog uses **Jekyll** — a static site generator. When you push Markdown files to GitHub, it automatically builds and deploys your site. No database, no backend.
-
-```python
-# Even code blocks are supported!
-def greet(name):
-    return f"Hello, {name}!"
-
-print(greet("World"))
+```bash
+$ echo "Hello, World"
+Hello, World
 ```
 
+## Why I built this
+
+No Medium. No Substack. No ads. Just a static site and full control over what I write and how it looks.
+
+GitHub Pages + Jekyll = free hosting, zero maintenance.
+
+## What I'll write about
+
+- Things I'm building
+- Tools I find useful
+- Notes to my future self
+
+## Stack
+
+| Layer     | Tool              |
+|-----------|-------------------|
+| Hosting   | GitHub Pages      |
+| Generator | Jekyll            |
+| Theme     | Custom Roblox CSS |
+| Writing   | Markdown + VSCode |
+
 ---
 
-Thanks for reading. More posts coming soon!
+```python
+# The only code that matters right now
+print("Let's go.")
+```
