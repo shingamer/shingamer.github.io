@@ -4,7 +4,7 @@ title: "My First Post"
 date: 2026-04-05 12:00:00 +0800
 categories: [general, intro]
 tags: [hello, github-pages, jekyll]
-author: Your Name
+author: shingamer
 ---
 
 Welcome to my very first blog post! 🎉
