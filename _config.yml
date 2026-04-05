@@ -1,23 +1,23 @@
-title: My GitHub Pages Blog
-description: A simple blog hosted on GitHub Pages
+title: My Hacker Blog
+description: Terminal thoughts. Green text. No apologies.
 author: Your Name
 email: your-email@example.com
 
-# Theme - choose one from https://pages.github.com/themes/
-theme: hacker
+# Hacker theme (official GitHub Pages supported theme)
+remote_theme: pages-themes/hacker@v0.2.0
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-# Permalink style for posts
-permalink: /:year/:month/:day/:title/
-
-# Plugins (safe for GitHub Pages)
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation links (optional)
-header_pages:
-  - about.md
+# Optional: show download buttons on project pages
+show_downloads: false
+
+# Optional: Google Analytics
+# google_analytics: UA-XXXXXXXXX-X
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:year/:month/:day/:title/
