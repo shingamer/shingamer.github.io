@@ -6,4 +6,4 @@ date: 2026-04-04 12:00:00 +0800
 
 # My Initial Blog
 
-![Alt text](/assets/images/manface.png)
+![manface](/assets/css/images/manface.png)
