@@ -12,10 +12,5 @@ Here you'll find posts about things I'm learning, building, and thinking about.
 ## Recent Posts
  
 {% for post in site.posts %}
-- **[{{ post.title }}]({{ post.url }})** — <small>{{ post.date | date: "%B %d, %Y" }}</small>
+- **[{{ post.title }}]({{ post.url }})** &mdash; {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
- 
-{% if site.posts.size == 0 %}
-*No posts yet. Check back soon!*
-{% endif %}
- 
