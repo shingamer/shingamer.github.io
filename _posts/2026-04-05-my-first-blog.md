@@ -1,18 +1,36 @@
 ---
-title: "My First Roblox Adventure"
-date: 2026-04-05
+layout: post
+title: "My First Post"
+date: 2026-04-05 12:00:00 +0800
+categories: [general, intro]
+tags: [hello, github-pages, jekyll]
+author: Your Name
 ---
 
-Hello gamers! 🎮
+Welcome to my very first blog post! 🎉
 
-Today I played Roblox and explored an awesome game.
+## Why I Started This Blog
 
-## 🌟 What I did
-- Built a small house 🏠
-- Collected coins 💰
-- Played with friends 👥
+I decided to start this blog to document my learning journey and share things I find interesting. GitHub Pages makes it incredibly easy to host a blog for **free** — no servers, no hosting fees.
 
-## 💡 Tip
-Always explore the map—you might find hidden rewards!
+## What to Expect
 
-Stay tuned for more Roblox guides!
+- 📝 Tutorials and how-tos
+- 💡 Things I'm learning
+- 🚀 Projects I'm working on
+
+## How This Works
+
+This blog uses **Jekyll** — a static site generator. When you push Markdown files to GitHub, it automatically builds and deploys your site. No database, no backend.
+
+```python
+# Even code blocks are supported!
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("World"))
+```
+
+---
+
+Thanks for reading. More posts coming soon!
