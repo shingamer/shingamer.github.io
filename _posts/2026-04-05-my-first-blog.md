@@ -5,7 +5,7 @@ date: 2026-04-05 12:00:00 +0800
 ---
 
 # Greetings, World
-![manface](https://github.com/shingamer/shingamer.github.io/blob/main/assets/css/images/manface.png)
+![manface](/assets/css/images/manface.png)
 ```bash
 $ echo "Hello, World"
 Hello, World
